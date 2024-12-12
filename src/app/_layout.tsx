@@ -22,10 +22,12 @@ export default function Layout() {
         return <Loading />
     }
 
-    return <Stack
-        screenOptions={{
-            headerShown: false,
-            contentStyle: { backgroundColor: colors.gray[100] },
-        }}
-    />
-}
+    return (
+        <Stack
+            screenOptions={{
+                headerShown: false,
+                contentStyle: { backgroundColor: colors.gray[100] },
+            }}
+        />
+    );
+};
